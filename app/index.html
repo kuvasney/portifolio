@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="pwsApp">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />	
+	<base href="/">
+	<title ng-bind="$root.title + ' | Portfólio pessoal de Rafael Kuvasney Marcolin'">Portfólio pessoal de Rafael Kuvasney Marcolin</title>	
+	<!--build:css css/style.min.css-->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--endbuild-->
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Kaushan+Script" rel="stylesheet">
+	<!--build:js js/angular.min.js -->
+	<script src="../node_modules/angular/angular.js"></script>
+	<!-- endbuild -->
+	<!--build:js js/angular.route.min.js -->
+	<script src="../node_modules/angular-route/angular-route.js"></script>
+	<!-- endbuild -->
+</head>
+<body>
+	<section id="mainHead">
+		<header>
+			<h1 class="mainHead_title hhttl"><a href="/">Rafael Kuvasney Marcolin</a></h1>
+			<h2 class="mainHead_subtitle hhttl">Front-End Web Dev</h2>
+			<span class="pen"></span>
+		</header>
+	</section>
+	
+	<nav id="siteNav">
+		<ul id="siteNav_list">			
+			<li>
+				<a href="sobre">Sobre</a>
+			</li>
+			<li>
+				<a href="trabalhos">Trabalhos</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div id="mainContent" ng-view>
+		
+	</div>
+
+	
+	<!--build:js js/main.min.js -->
+	<script src="js/config.js"></script>
+	<script src="js/run.js"></script>
+	<script src="js/controller/home.js"></script>
+	<script src="js/controller/sobre.js"></script>
+	<script src="js/controller/trabalhos.js"></script>
+	<script src="js/globals.js"></script>
+	<!-- endbuild -->
+</body>
+</html>

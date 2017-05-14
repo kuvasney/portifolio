@@ -1,0 +1,1 @@
+var pwsApp = angular.module("pwsApp", ["ngRoute"]);

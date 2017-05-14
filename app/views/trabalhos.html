@@ -1,0 +1,17 @@
+<section id="siteWork">
+	<h1 class="siteWork_mainTitle mainttl hhttl">Principais Projetos</h1>
+	<p class="desc">Estes são links para meus últimos projetos desenvolvidos. Alguns como freelancer, outros como parte de alguma equipe/empresa.</p>
+</section>
+<section id="siteWork_worklist">
+	<nav id="worklist_nav">
+		<ul ng-repeat="work in works">
+			<li>
+				<div class="workImg">
+					<a href="{{work.Link}}"><img src="images/jobs/{{work.Image}}" alt=""></a>
+				</div>
+				<h2>{{work.Title}}</h2>
+				<p>{{work.Desc}}</p>
+			</li>
+		</ul>
+	</nav>
+</section>

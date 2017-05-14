@@ -1,0 +1,51 @@
+[
+    {
+        "Title" 	: "SKY Modalidades",
+        "Desc"		: "Site para o cliente da SKY Brasil poder acompanhar os eventos das Olimpíadas Rio 2016. Era possível consultar o quadro de medalhas, as últimas novidades, fatos históricos e a programação, tudo através de consulta a uma API.",
+        "Image"		: "modalidades.jpg",
+        "Link"		: "http://planwetwide-suicide.com/work/sky/modalidades",
+        "Destaques"	: "Responsivo"
+    },
+    {
+        "Title" 	: "Recarga Programada",
+        "Desc"		: "Site para a divulgação do produto Recarga Programada do SKY Pré-Pago.",
+        "Image"		: "recarga-programada.jpg",
+        "Link"		: "https://www.skyprepago.com.br/recarga-programada",
+        "Destaques"	: "Responsivo"
+    },
+    {
+        "Title" 	: "Oscar 2016",
+        "Desc"		: "Site para a divulgação da cerimônia de entrega do Oscar pela SKY Brasil.",
+        "Image"		: "oscar.jpg",
+        "Link"		: "http://planwetwide-suicide.com/work/sky/oscar",
+        "Destaques"	: ""
+    },
+    {
+        "Title" 	: "Game Of Thrones",
+        "Desc"		: "Site para a divulgação da estréia da temporada 6 de Game Of Thrones na SKY Brasil.",
+        "Image"		: "got.jpg",
+        "Link"		: "http://planwetwide-suicide.com/work/sky/got",
+        "Destaques"	: ""
+    },
+    {
+        "Title" 	: "Ecosan",
+        "Desc"		: "Site institucional da empresa Ecosan. Reponsável pela manutenção e tonrá-lo responsivo (lançamento previsto para 07/2017)",
+        "Image"		: "ecosan.jpg",
+        "Link"		: "http://ecosan.com.br",
+        "Destaques"	: "Responsivo"
+    },
+    {
+        "Title" 	: "Rádio Touch",
+        "Desc"		: "Rádio online para a marca de relógios Touch. Responsável pela interface.",
+        "Image"		: "touch.jpg",
+        "Link"		: "http://radiotouch.bitballoon.com/",
+        "Destaques"	: "Responsivo"
+    },
+    {
+        "Title" 	: "Vila Filmes",
+        "Desc"		: "Site institucional da empresa Vila Filmes.",
+        "Image"		: "vilafilmes.jpg",
+        "Link"		: "http://vilafilmes.com.br/site/",
+        "Destaques"	: ""
+    }    
+]
